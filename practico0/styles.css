@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+    /* Cambio de color de letra, alineado y subrayado del titulo*/
+}
+h2{
+    color: orange;
+    background-color: black;
+    /* Cambio de color de letra y caja*/
+}
