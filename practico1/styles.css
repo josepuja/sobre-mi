@@ -1,0 +1,74 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #333;
+}
+
+/* Estilos para campos de entrada y select */
+select,
+input[type="text"] {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Estilos para botones */
+button {
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el menú desplegable de operaciones */
+#operation {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el botón Calcular */
+#calculate-button {
+    background-color: #007bff;
+    color: white;
+}
+
+#calculate-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el botón Borrar */
+#clear-button {
+    background-color: #e74c3c;
+    color: white;
+    margin-left: 10px;
+}
+
+#clear-button:hover {
+    background-color: #c0392b;
+}
+
+/* Estilos para el contenedor de resultados */
+#result-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el resultado */
+#result {
+    font-size: 18px;
+    color: #333;
+}
