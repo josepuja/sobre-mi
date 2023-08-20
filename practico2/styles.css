@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Contenedor principal del juego */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* Estilos para la selección del jugador */
+.opcion {
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  background-color: transparent;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.opcion:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el resultado y el ganador */
+.resultado {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.ganador {
+  font-size: 24px;
+  color: #00a0e4;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Estilos para el botón de reinicio */
+#reiniciar {
+  display: none; /* Inicialmente oculto */
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00a0e4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#reiniciar:hover {
+  background-color: #0079b5; /* Cambia de color al hacer hover */
+}
+
+/* Estilos para el marcador */
+.marcador {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#marcador-jugador {
+  color: #00a0e4; /* Color del jugador */
+}
+
+#marcador-computadora {
+  color: #e40000; /* Color de la computadora */
+}
+
+/* Transiciones suaves */
+.transition {
+  transition: all 0.3s ease-in-out;
+}
